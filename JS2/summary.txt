@@ -1,0 +1,72 @@
+
+                  Day 23 – Arithmetic & conditional operator in Javascript.
+
+
+
+o	JS arithmetic-->
+       A typical arithmetic operation operates on two numbers.
+           
+
+o	JS operators--> {  + , - , * , ** , / , % , ++ , -- }
+
+o	JS assignments--> =
+                            +=	
+                             -=	
+                               *=	
+                                 /=	
+                                    %=
+                                      **=	
+
+o	Functions in JS--> 
+
+         A JavaScript function is a block of code designed to perform a particular task.
+         A JavaScript function is executed when "something" invokes it (calls it).
+         function name(parameters){your code here}.
+
+          -->kReturn;
+         
+         When JavaScript reaches a return statement, the function will stop executing.
+
+         If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+
+         Why Functions?
+
+           With functions you can reuse code.
+
+           You can write code that can be used many times.
+
+       You can use the same code with different arguments, to produce different results.
+
+o	Arrow function 
+o	Function keywords
+o	Diff between == & === --> the == operator converts the operands' types before comparing them, whereas the === operator compares the operands' values as well as their data types
+
+                                  The comparison is made by == and === operators in javascript. The main difference between the == and === operator in javascript is that the == operator does the type conversion of the operands before comparison, whereas the === operator compares the values as well as the data types of the operands.
+
+o	Typeof keyword in JS--> Typeof in JavaScript is an operator used for type checking and returns the data type of the operand passed to it
+
+        o	   Introduction condition operators.
+
+o	If else--> 
+
+            when "if" condition is true "else" won't work. "else" will work if "if" not working.
+
+o	Switch --> 
+
+           The switch statement is used to perform different actions based on different conditions.
+           Use the switch statement to select one of many code blocks to be executed.
+
+o	While  --> 
+The while loop loops through a block of code as long as a specified condition is true.
+            
+            
+
+o	Do while --> The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
+o	Ternary operator -->
+
+Let create simple calculator
+	Addition 
+	Subtraction
+	Multiplication
+	Division 

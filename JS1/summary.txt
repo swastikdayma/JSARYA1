@@ -1,0 +1,77 @@
+                   Introduction of Javascript
+
+
+o	Introduction to JS--> JAVA SCRIPT
+
+o	What is JS? -->JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.
+
+JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as Node.js, which allow you to add more functionality
+
+
+o	How JS works?-->  
+                            As we said, JavaScript is a single-threaded programming language. It means that only one command is performed at a time. JavaScript has a blocking and synchronous nature. To put it another way, the code runs in the order it appears, and each section of code must complete running before moving on to the next.
+
+
+
+o	About V8 engine.-->V8 is Google's open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node.js, among others.
+
+o	Installation of nodeJS in localmachine
+
+o	Why nodejs is required ?--> Node. js is a versatile runtime environment that allows developers to build fast and scalable network applications. 
+
+
+o	Single thread in JS.-->
+
+Javascript is a single-threaded language, meaning that just one line of code may be run at once. Javascript is single-threaded because, originally, it was only a web browser scripting language created to serve the needs of a single user on a single window of the browser
+
+                         -----------------
+o	First JS program.-->  
+                           ---------------
+o	How to log result in console(browser)--> By console.log()
+
+
+o	Variables in JS--> They are like containers and holds value.
+
+o	Var -> var should only be used in old browser.
+o	Const-> use const if the value/ type should not be changed.
+o	Let -> use only, when cant use const.
+
+o	Difference between above variable declaration method.-->
+
+         var declarations are globally scoped or function scoped while let and const are block scoped. var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared. They are all hoisted to the top of their scope.
+
+        o	Exercise on variable declaration. 
+
+        o	Datatypes in JS--> Types of data
+      
+
+       o	String -- Anything written in single quote and double quote.
+                  
+       o	Number -- simple numbers or decimals.
+
+       o	Boolean -- represent one of two values--> true or false.
+
+       o	Array -- special variable that can hold one or more values.
+          
+
+         An array can hold many values under a single name, and you can access the values by referring to an index number.
+
+                 Note: Array indexes start with 0.
+
+                 [0] is the first element. [1] is the second element.
+
+
+       o	Object -- You have already learned that JavaScript variables are containers for data values.
+              
+             ->     Objects are variables too. But objects can contain many values.
+
+              
+             ->     The values are written as name: value pairs (name and value separated by a colon).
+
+              
+             ->     It is a common practice to declare objects with the const keyword.
+
+ Arrays are best to use when the elements are numbers. Objects are best to use when the elements' strings (text). The data inside an array is known as Elements. The data inside objects are known as Properties which consists of a key and a value.
+
+
+

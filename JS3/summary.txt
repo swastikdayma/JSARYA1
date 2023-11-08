@@ -1,0 +1,46 @@
+        
+
+o	JS Strings methods
+
+o	.length--> The length property returns the length of a string:
+
+
+o	.slice --> slice() extracts a part of a string and returns the extracted part in a new string.
+The method takes 2 parameters: start position and end position (end not included).
+
+o	.trim --> The trim() method removes whitespace from both sides of a string:
+
+o	.trimStart--> The trimStart() method works like trim(), but removes whitespace only from the start of a string.
+
+o	.trimEnd--> The trimEnd() method works like trim(), but removes whitespace only from the end of a string.
+
+o	.replace --> 
+
+The replace() method replaces a specified value with another value in a string: 
+ The replace() method does not change the string it is called on.
+
+ The replace() method returns a new string.
+
+  The replace() method replaces only the first match.
+   By default, the replace() method is case sensitive. Writing MICROSOFT (with upper-case)   will not work:
+To replace case insensitive, use a regular expression with an /i flag (insensitive):
+
+o	.replaceAll-->
+  
+o	.split
+o	.charAt-->
+
+o	.concat--> concat() joins two or more strings:
+string1.concat()
+
+o	ToUpperCase()--> A string is converted to upper case with toUpperCase():
+o	ToLowerCase--> A string is converted to lower case with toLowerCase():
+o	.includes-->The includes() method returns true if a string contains a specified value.
+
+Otherwise it returns false
+o	.match-->The match() method returns an array containing the results of matching a string against a string
+o	.matchAll
+o	.lastIndexOf-->Both indexOf(), and lastIndexOf() return -1 if the text is not found:
+
+o	String Template
+o	For loop for strings

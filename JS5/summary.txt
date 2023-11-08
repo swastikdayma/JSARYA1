@@ -1,0 +1,76 @@
+                                     Day-26 JS Numbers & JS objects
+o	JS numbers-->JavaScript has only one type of number. Numbers can be written with or without decimals.
+
+o	IsNan()-> NaN is a JavaScript reserved word indicating that a number is not a legal number.
+
+Trying to do arithmetic with a non-numeric string will result in NaN (Not a Number):
+ let x = number / "string";
+
+o	.toString()->  The toString() method returns a number as a string.
+
+    All number methods can be used on any type of numbers (literals, variables, or       expressions).
+syntax-> let x = any number;
+
+         x.toString();
+
+o	New Number()->
+
+o	Float->
+
+o	Bigint->
+
+o	.toFixed()->The toFixed() method rounds a number to a given number of digits
+           syntax->x.toFixed(number)
+               let x = 9.656;
+
+              x.toFixed(0) output 10
+              x.toFixed(2) output 9.7
+              x.toFixed(4) output 9.6560
+
+o	.toPrecision()->The toPrecision() method returns a string, with a number written with a specified length.
+            let x = 8.564;
+              x.toPrecision(); output same
+               x.toPrecision(2); output- 8.6
+
+
+o	.parseFloat()->parseFloat() parses a string and returns a number. Spaces are allowed. Only the first number is returned.
+
+          syntax- parseFloat("10");
+                  parseFloat("10.33");
+                   parseFloat("10 20 30");
+
+
+o	.parseInt()->parseInt() parses a string and returns a whole number. Spaces are allowed. Only the first number is returned
+
+syntax- parseInt("-9") output -9
+        parseInt("-10.04") output -10 
+
+o	JS objects->
+   In JavaScript, almost "everything" is an object.
+
+     Booleans can be objects (if defined with the new keyword)
+     Numbers can be objects (if defined with the new keyword)
+     Strings can be objects (if defined with the new keyword)
+      Dates are always objects
+      Maths are always objects
+      Regular expressions are always objects
+       Arrays are always objects
+      Functions are always objects
+      Objects are always objects
+
+     JavaScript defines 7 types of primitive data types:
+
+         Examples
+         string
+         number
+         boolean
+         null
+         undefined
+         symbol
+         bigint
+
+o	Object.keys
+o	Object.values
+o	Accessing value 
+o	Nested objects
+o	Function in objects

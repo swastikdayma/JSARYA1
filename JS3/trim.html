@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <script>
+        let text = "      asdfghjklhello      ";
+        let trimmed = text.trim();
+        document.getElementById('p1').innerHTML= trimmed +"</br>"+ text +"</br>"+ text.length +"</br>"+ trimmed.length;
+
+       
+    </script>
+
+
+    <!-- <script>
+        let text1 = "     Hello World!     ";
+        let text2 = text1.trimStart();
+        
+        document.getElementById("p1").innerHTML =
+        "Length text1 = " + text1.length + "<br>Length text2 = " + text2.length;
+        </script> -->
+        <!-- <script>
+            let text1 = "     Hello World!     ";
+            let text2 = text1.trimEnd();
+            
+            document.getElementById("p1").innerHTML =
+            "Length of text1 = " + text1.length + "<br>Length of text2 = " + text2.length;
+            </script> -->
+</body>
+</html>
